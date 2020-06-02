@@ -1,0 +1,5 @@
+num_1 = int(input("Introduce un número: "))
+num_2 = int(input("Introduce un número: "))
+print("El restultado de la suma es: ", num_1+num_2)
+print("El resultado de la multiplicación es: ",num_1*num_2)
+print("El resultado de la división es: ", num_1/num_2)
