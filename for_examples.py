@@ -4,17 +4,17 @@ for i in range(0,301):
 
 for i in range(0,21):
     print("La tabla del multiplicación {}*15 es: {}".format(i,i*15) )
-x = []
+par = 0
 for i in range(50,101):
     if i % 2 != 0:
-        x.append(i)
-print("La súma de números impares de 50 a 100 es: ",sum(x))
+        par += i
+print("La súma de números impares de 50 a 100 es: ",par)
     
-lst=[]
+impar=0
 for i in range(10,101):
     if i % 2 == 0:
-        lst.append(i)
+        impar += i
         
-print("La suma de pares de 10 a 100 es: ",sum(lst))
+print("La suma de pares de 10 a 100 es: ",impar)
 
     
