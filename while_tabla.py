@@ -13,7 +13,7 @@ selection = 'Si'
 
 while selection == 'Si':
     number = int(input('Introduce un número: '))
-    counter = 1
+    counter = True
 
     while counter < 26:
         print (f'{number} x {counter} = {number * counter}')
