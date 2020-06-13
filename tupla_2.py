@@ -1,6 +1,6 @@
-nombres = input('Dame los nombres que quieras introducir: ')
+nombres = input('Dame los nombres que quieras introducir separados con una coma: ')
 
-lista_nombres = nombres.split(",")
+lista_nombres = nombres.replace(' ','').split(",")
 
 tupla_nombres = tuple(lista_nombres)
 
